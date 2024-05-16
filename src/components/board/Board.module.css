@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.board{
+  display: flex;
+  padding: 20px;
+  margin: 0;
+}
+.addTask{
+  /* display: flex;
+  justify-content: space-between;
+  column-gap:15px; */
+  padding: 22px;
+  margin: 0;
+}
+.addTaskForm{
+  display: flex;
+}
+.inputField {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 330px;
+}
+
+.kanbanboard{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0;
+}
+.superButton,.addButton {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 59px;
+  font-weight: 700;
+
+}
+.addButton{
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 19px;
+
+}
+
+.superButton:hover {
+  background-color: #0056b3;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.column {
+  flex: 1;
+  padding: 15px;
+  margin: 0 10px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo {
+  background-color: #cce5ff; /* light blue */
+}
+
+.inProgress {
+  background-color: #fff3cd; /* light yellow */
+}
+
+.done {
+  background-color: #d4edda; /* light green */
+}
+
+.task {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task:hover {
+  background-color: #f9f9f9;
+}
+
+.task:active {
+  transform: translateY(2px);
+}
+
+.task-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.task-description {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #666666;
+}
+
+
+.thamp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskContent {
+  padding-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.horizontalLine {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 8px 0;
+}
